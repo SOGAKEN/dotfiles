@@ -16,6 +16,6 @@ else
 	echo ".config already maked"
 fi
 
-stow -v -d ~/dotfiles -t ~ karabiner fish tig
+stow -v -d ~/dotfiles -t ~ karabiner fish tig tmux
 
 echo "Success"
