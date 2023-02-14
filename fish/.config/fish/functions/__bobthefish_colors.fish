@@ -237,23 +237,23 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_desk                     $base0D $colorfg --bold
       set -x color_nix                      $base0D $colorfg --bold
 
-    case 'base16' 'base16-dark'
-      set -l base00 181818
-      set -l base01 282828
-      set -l base02 383838
-      set -l base03 585858
-      set -l base04 b8b8b8
-      set -l base05 d8d8d8
-      set -l base06 e8e8e8
-      set -l base07 111111
-      set -l base08 FA2FBD # red
-      set -l base09 FFF01F # orange
-      set -l base0A f7ca88 # yellow
-      set -l base0B 00FFFF # green
-      set -l base0C 86c1b9 # cyan
-      set -l base0D 7cafc2 # blue
-      set -l base0E ba8baf # violet
-      set -l base0F a16946 # brown
+case 'base16' 'base16-dark'
+     set -l base00 181818
+     set -l base01 282828
+     set -l base02 383838
+     set -l base03 585858
+     set -l base04 b8b8b8
+     set -l base05 d8d8d8
+     set -l base06 e8e8e8
+     set -l base07 111111
+     set -l base08 FA2FBD # red
+     set -l base09 FFF01F # orange
+     set -l base0A f7ca88 # yellow
+     set -l base0B 00FFFF # green
+     set -l base0C 86c1b9 # cyan
+     set -l base0D 7cafc2 # blue
+     set -l base0E ba8baf # violet
+     set -l base0F a16946 # brown
 
       set -l colorfg $base07
 
