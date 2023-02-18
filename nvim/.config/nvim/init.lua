@@ -1,9 +1,16 @@
--- for vim-parenmatch
-vim.g.loaded_matchparen = true
+require('sogaken.base')
+require('sogaken.highlights')
+require('sogaken.maps')
+require('sogaken.plugins')
+-- Lua:
+vim.cmd[[colorscheme dracula]]
+local has = function(x)
+  return vim.fn.has(x) == 1
+end
+local is_mac = has "macunix"
 
--- for filetype.nvim
-vim.g.did_load_filetypes = 1
-
-require('keymap')
+if is_mac then
+  require('sogaken.macos')
+end
 
 
