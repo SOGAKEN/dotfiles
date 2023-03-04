@@ -9,6 +9,7 @@ set PATH /opt/homebrew/bin $PATH
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH  $PYENV_ROOT/bin $PATH
 # pyenv init - | source
+
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
@@ -18,6 +19,7 @@ alias g git
 alias vim nvim
 alias t "tmux new -s"
 alias cc "clear"
+alias tig "tig --all"
 
 # fzf の設定
 set -U FZF_LEGACY_KEYBINDINGS 0
