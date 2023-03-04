@@ -22,6 +22,4 @@ mas "Edison Mail", id: 1489591003
 mas "MindNode", id: 1289197285
 mas "Paste", id: 967805235
 mas "Sorted", id: 1306893526
-mas "Spark", id: 1176895641
-mas "Telegram Lite", id: 946399090
 mas "Yoink", id: 457622435
